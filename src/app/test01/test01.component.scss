@@ -14,7 +14,7 @@
     [class*='col-'] {
         display: flex;
         flex-direction: column;
-        line-height: 5rem;
+        line-height: 7rem;
         margin-bottom: 0rem;
         margin-top: 2rem;
       }
@@ -23,4 +23,19 @@
 .header *{
     display:flex;
     justify-content:center;
+    color:rgba(0,0,0,0.6);
+}
+
+.footer{
+    color:green;
+    display:flex;    
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.greentheme
+{
+    color:green;
 }

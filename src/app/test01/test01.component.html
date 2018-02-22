@@ -1,22 +1,19 @@
 <div class="container">
   <header class="header">
-    <h1>Book an appointment</h1>
-    <h4>Our Investing topics</h4>
-    <h3>Pick a topic, then we'll find a time and place</h3>
+    <h2>Book an appointment</h2>
+    <h5>Our Investing topics</h5>
+    <h4>Pick a topic, then we'll find a time and place</h4>
   </header>
 
   <div class="row btn-group-xs btn-group-md btn-group-horizontal custom-tdtheme">
-
-      <button type="button"  *ngFor="let buttonObj of buttonArr"
-      class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-offset-1 col-xs-10">{{buttonObj.text}}</button>
-
-    <!-- <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Open a chequing account</button>
-    <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Open a savings account</button>
-    <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Open a U.S dollar account</button>
-    <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Review my everyday banking needs</button>
-    <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Switch to TD</button>
-    <button type="button" class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">Apply for overdraft protection</button> -->
+      <button class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-offset-1 col-xs-10" 
+        type="button" *ngFor="let buttonObj of buttonArr">{{buttonObj.text}}</button>
   </div>
-
+  <footer class="footer">
+    <nav>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <a class="greentheme">Return to previous screen</a>
+      </nav>
+  </footer>
 </div>
 

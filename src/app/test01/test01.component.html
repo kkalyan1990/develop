@@ -5,7 +5,8 @@
     <h4>Pick a topic, then we'll find a time and place</h4>
   </header>
 
-  <div class="row btn-group-xs btn-group-md btn-group-horizontal custom-tdtheme">
+  <div class="row btn-group-xs btn-group-md btn-group-horizontal custom-tdtheme" 
+  [ngClass]="{'singleButton': buttonArr.length ===1}"  >
       <button class="btn btn-default col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-offset-1 col-xs-10" 
         type="button" EqualheightDirective="TDbutton" *ngFor="let buttonObj of buttonArr">{{buttonObj.text}}</button>
   </div>

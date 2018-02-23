@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { Test01Component } from './test01/test01.component';
 import { Test02Component } from './test02/test02.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { EqualheightDirective } from './test01/equalheight.directive';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     HomeComponent,
     Test01Component,
-    Test02Component
+    Test02Component,
+    EqualheightDirective
   ],
   imports: [
     BrowserModule,

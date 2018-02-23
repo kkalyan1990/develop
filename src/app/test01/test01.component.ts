@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Test1Service } from './test1.service';
+import { EqualheightDirective } from './equalheight.directive';
 
 @Component({
   selector: 'app-test01',
